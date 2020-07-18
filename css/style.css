@@ -5,16 +5,55 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: rgb(246, 238, 236);
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
 
 .wrapper {
+	background: rgb(246, 238, 236);
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
+	background: rgb(139, 118, 118);
 	padding: 0 45px 20px;
 }
+img {
+	width: 100%;
+}
 
+h1 {
+	padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+#press img {
+    border: 5px #ccc solid;
+    padding: 1px;
+}
 /* Write all remaining styles here */
